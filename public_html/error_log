@@ -1,0 +1,62 @@
+[16-Oct-2019 10:40:08 UTC] PHP Warning:  require_once(vendor/swiftmailer/lib/swift_required.php): failed to open stream: No such file or directory in /home/brucenorton/zohms.com/contact_swifter.php on line 2
+[16-Oct-2019 10:40:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/swiftmailer/lib/swift_required.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/brucenorton/zohms.com/contact_swifter.php on line 2
+[25-Nov-2019 19:50:30 UTC] PHP Warning:  require_once(vendor/swiftmailer/lib/swift_required.php): failed to open stream: No such file or directory in /home/brucenorton/zohms.com/contact_swifter.php on line 2
+[25-Nov-2019 19:50:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/swiftmailer/lib/swift_required.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/brucenorton/zohms.com/contact_swifter.php on line 2
+[11-Dec-2019 00:27:44 UTC] PHP Warning:  require_once(vendor/swiftmailer/lib/swift_required.php): failed to open stream: No such file or directory in /home/brucenorton/zohms.com/contact_swifter.php on line 2
+[11-Dec-2019 00:27:44 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/swiftmailer/lib/swift_required.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/brucenorton/zohms.com/contact_swifter.php on line 2
+[11-Dec-2019 00:27:44 UTC] PHP Warning:  require_once(vendor/swiftmailer/lib/swift_required.php): failed to open stream: No such file or directory in /home/brucenorton/zohms.com/contact_swifter.php on line 2
+[11-Dec-2019 00:27:44 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/swiftmailer/lib/swift_required.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/brucenorton/zohms.com/contact_swifter.php on line 2
+[11-Dec-2019 01:32:27 UTC] PHP Warning:  require_once(vendor/swiftmailer/lib/swift_required.php): failed to open stream: No such file or directory in /home/brucenorton/zohms.com/contact_swifter.php on line 2
+[11-Dec-2019 01:32:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/swiftmailer/lib/swift_required.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/brucenorton/zohms.com/contact_swifter.php on line 2
+[04-Jan-2020 21:05:43 UTC] PHP Warning:  require_once(vendor/swiftmailer/lib/swift_required.php): failed to open stream: No such file or directory in /home/brucenorton/zohms.com/contact_swifter.php on line 2
+[04-Jan-2020 21:05:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/swiftmailer/lib/swift_required.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/brucenorton/zohms.com/contact_swifter.php on line 2
+[04-Jan-2020 21:15:06 UTC] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host relay-hosting.secureserver.net [Connection refused #111] in /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/brucenorton/zohms.com/contact_swifter.php(61): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[08-Jan-2020 01:10:37 UTC] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host relay-hosting.secureserver.net [Connection refused #111] in /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/brucenorton/zohms.com/contact_swifter.php(61): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[27-Jan-2020 16:21:02 UTC] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host relay-hosting.secureserver.net [Connection refused #111] in /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/brucenorton/zohms.com/contact_swifter.php(61): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[29-Jan-2020 14:28:47 UTC] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host relay-hosting.secureserver.net [Connection refused #111] in /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/brucenorton/zohms.com/contact_swifter.php(61): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[01-May-2024 20:08:15 UTC] PHP Notice:  Undefined index: email in /home/brucenorton/zohms.com/contact_swifter.php on line 43
+[01-May-2024 20:08:15 UTC] PHP Notice:  Undefined index: name in /home/brucenorton/zohms.com/contact_swifter.php on line 43
+[01-May-2024 20:08:15 UTC] PHP Fatal error:  Uncaught Swift_RfcComplianceException: Address in mailbox given [] does not comply with RFC 2822, 3.6.2. in /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:347
+Stack trace:
+#0 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(263): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php(592): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From', in /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 347
+[01-May-2024 20:10:00 UTC] PHP Notice:  Undefined index: email in /home/brucenorton/zohms.com/contact_swifter.php on line 43
+[01-May-2024 20:10:00 UTC] PHP Notice:  Undefined index: name in /home/brucenorton/zohms.com/contact_swifter.php on line 43
+[01-May-2024 20:10:00 UTC] PHP Fatal error:  Uncaught Swift_RfcComplianceException: Address in mailbox given [] does not comply with RFC 2822, 3.6.2. in /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:347
+Stack trace:
+#0 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(263): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php(592): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From', in /home/brucenorton/zohms.com/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 347

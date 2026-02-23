@@ -1,0 +1,220 @@
+/*!
+ * updated...
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * hello!!
+ */
+
+ html, body {
+
+  height: 100%;
+}
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    color: #9e9e9e;
+    background-color: #010101;
+    font-size: 16px;
+
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url('../images/zohm_front1920.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.vietnam {
+	padding-left: 9vw;
+}
+
+#infocommbutton {
+	width: 30vw;
+	display: block;
+    margin: auto;
+	margin-top: 2vw;
+}
+
+.button {
+	transition: transform .5s;
+}
+
+.button:hover {
+	transform: scale(1.2);
+}
+
+/* Button */
+
+.btn {
+  border: thick;
+  background-color: #1574CC;
+  padding: 14px 28px;
+  font-weight: 700;
+  cursor: pointer;
+  display: block;
+	margin: auto;
+transition: .1s all ease-in-out;
+}
+
+.infocomm {
+	font-size: 16px;
+	color: white;
+}
+
+
+/* On mouse-over */
+
+.btn:hover {
+	
+	background:#65006F;
+	transition: .1s all ease-in-out;
+
+}
+
+.infocomm:hover {
+	color: white;
+}
+
+#ic {
+	color: white;
+	margin-top: 2vw;
+	text-align: center;
+	font-size: 18px;	
+}
+
+#features{
+  line-height: 1.6rem;
+}
+
+.about{
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+ul{
+  line-height: 200%;
+}
+
+a{
+  text-align: center;
+}
+
+@media only screen and (max-width: 320px) {
+	
+	body {font-size: 10px;}
+}
+
+.main-header {
+  text-align: center;
+  margin-top: -20px;
+}
+
+h1, h2, h3, h4, h5{
+  color: #90acd6;
+}
+
+h5{
+  margin: 50px;
+}
+p + ul {
+    margin-top: -15px;
+}
+
+figcaption{
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  display: table;
+  background-color: rgba(255, 255, 255, 0.)
+}
+
+/* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
+
+.carousel {
+    height: 50%;
+    margin-top: -20px;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+.carousel-caption h2{
+  color: #efefef;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    /*margin-left: 25%;*/
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+/*
+hr{
+  margin: 100px 0;
+  border-top: 4px solid #151515;
+  
+}
+*/
+#lawsList li{
+  margin: 16px 0 16px 0;
+}
+
+/*form stuff*/
+label{
+   min-width: 100%;
+}
+input, textarea{
+  margin: 0px 0 12px 12px;
+ box-sizing: border-box; 
+
+}
+.vidWrapper {
+  position: relative;
+  padding-bottom: 56%;
+  padding-top: 20px;
+  height: 0;
+}
+.vidWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#social{
+  font-size: 1.5em;
+  color: #337ab7;
+}
+
+#social-footer{
+  font-size: 2em;
+}
+
+iframe{
+  width: 100%;
+  height: 900px;
+}
+
+footer {
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+}

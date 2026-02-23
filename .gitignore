@@ -1,0 +1,9 @@
+# VS Code files for those working on multiple tools
+.vscode
+.DS_Store
+*.indd
+*.icloud
+*.psd
+*.tif
+*.mp4
+*beachclub.png
