@@ -19,7 +19,7 @@
                     <li><a href="details.php">Products</a></li>
                     <li><a href="news.php">Media</a></li>
 					<li><a href="case.php">Cases</a></li>
-					<li><a href="distributors.php">Distributors</a></li>
+					<li><a href="distributors.php" class="is-disabled" aria-disabled="true">Distributors</a></li>
                     <li><a href="support.php">Support</a></li>
                     <li><a href="faq.php">FAQ</a></li>
                     <li><a href="about.php">About</a></li>

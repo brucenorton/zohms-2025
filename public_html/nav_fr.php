@@ -18,7 +18,7 @@
                     <li><a href="details.php">Produits</a></li>
                     <li><a href="news.php">Médias</a></li>
 					<li><a href="case.php">Étude de Cas</a></li>
-                    <li><a href="distributeurs.php">Distributeurs</a></li>
+                    <li><a href="distributeurs.php" class="is-disabled" aria-disabled="true">Distributeurs</a></li>
                     <li><a href="support.php">Assistance</a></li>
                     <li><a href="contact.php">Nous Contacter</a></li>
                     <li><a href="../">en</a></li>
